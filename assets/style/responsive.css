@@ -1,0 +1,50 @@
+@media screen and (max-width:391px) {
+    header{
+        display: none;
+    }
+    .navbar-collapse{
+        display: none;
+    }
+    .card_ustunluk{
+        flex-direction: column;
+        width: 100%;
+    }
+    .tedris_programi .card-body{
+        border-top: solid 1px lightgray;
+        border-bottom: solid 1px lightgray;
+        width: 100%;
+    }
+    .tedris_programi .row{
+        flex-direction: column;
+        align-items: center;
+    }
+    .card_ibrahim{
+        width: 100%;
+        flex-direction: column;
+    }
+    .card_nurlan{
+        width: 100%;
+        flex-direction: column;
+    }
+    .cards{
+        flex-direction: column;
+    }
+    .card_ibrahim img{
+        width: 20%;
+    }
+    .card_nurlan img{
+        width: 20%;
+    }
+    .muraciet1{
+        width: 100%;
+    }
+    .muraciet{
+        flex-direction: column;
+    }
+    #input_nomre{
+        width: 100%;
+    }
+    .footer{
+        font-size: 12.8px;
+    }
+}

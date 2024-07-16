@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: #262d67;
+}
+header li{
+    margin-right: 10px;
+}
+header li img{
+    width: 18px;
+    height: 18px;
+}
+body{
+    height: 150vh;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #42A7BF;
+    width: 100%;
+}
+header div{
+    width: 1320px;
+    padding: 0+0+0+12px;
+}
+header h1{
+    font-size: 0.8rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: white;
+    margin: 5px+0;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul{
+    list-style: none;
+}
+.nav-item a{
+    text-decoration: none;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #262d67;
+    font-weight: 600;
+}
+.btn-outline-success{
+    background-color: #42a7bf;
+    /* border-color: #42a7bf; */
+    width: 150px;
+    transition: all 0.4s ease-in-out;
+    color: #FFFFFF !important;
+
+}
+.btn-outline-success:hover {
+    color: #42a7bf !important; 
+    background-color: white;
+    border-color: #42a7bf;
+    transition: all 0.4s ease-in-out;
+}
+.myHoverLi{
+    border: 1px solid #42a7bf;
+    border-radius: 0.5rem;
+    width: 300px;
+    padding: 0;
+    position: absolute;
+    top: 100%;
+    background-color: #fff;
+    transition: all 0.4s ease-in-out;
+    visibility: hidden;
+    opacity: 0;
+    z-index: 5;
+}
+.carousel-inner {
+    height: 100%;
+}
+
+.caruselSection {
+    margin-top: 0px;
+}
+
+section {
+    margin: 30px 0px;
+}
+
+.carousel-item {
+    height: 100%;
+}
+
+    .carousel-item img {
+        position: relative;
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .carousel-item h1 {
+        position: absolute;
+        bottom: 8%;
+        left: 10%;
+        color: white;
+    }
+.header span{
+    font-weight: bold;
+    margin-bottom: 15px;
+    font-size: 1.2em;
+}
+.header{
+    display: flex;
+    align-items: center;
+}
+.header p{
+    color: #46C0EF;
+    font-size: 3.5rem;
+    font-weight: bolder;
+}
+.tedris_programi .card-body a{
+    padding: 4.8px+48px;
+    background-color: #42A7BF;
+}
+.tedris_programi .card-body{
+    display: flex;
+    flex-direction: column;
+    width: 50% ;
+    align-items: center;
+    text-align: center;
+    padding: 12px+28px;
+}
+.tedris_programi .card-body h5{
+    padding-top: 32px;
+    margin-bottom: 8px;
+}
+.tedris_programi .card-body p{
+    padding: 16px+0;
+    margin-bottom: 16px;
+}
+.card_ustunluk{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    padding: 32px;
+}
+.card_ustunluk  img{
+    width: 280.8px;
+    border-radius: 5px;
+}
+.card_inner{
+    height: 100%;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+.card_inner h5{
+    margin-bottom: 24px;
+}
+.card_inner p{
+    font-size: 0.9rem;
+}
+.card_ibrahim p{
+    font-style: italic;
+}
+.muraciet input{
+    color: #262d67;
+    outline-color:#42A7BF;
+    border: solid,1px #42A7BF;
+    border-radius: 5px;
+    padding: 6px+12px;
+}
+.muraciet button{
+    background: #42A7BF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.dropdown button{
+    background: none;
+    color: black;
+}
+.card-body:hover{
+    border: 1px solid lightgray;
+}
+.navbar-collapse{
+    display: flex;
+}
+.card_nurlan{
+    width: 50%;
+    display: flex;
+}
+.card_ibrahim{
+    width: 50%;
+    display: flex;
+}
+.card_ibrahim img{
+    width: 13%;height: 35.3%;
+}
+.card_nurlan img{
+    width: 13%;height: 35.3%;
+}
+.muraciet1{
+    width: 50%;
+}
